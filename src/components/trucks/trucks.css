@@ -1,0 +1,28 @@
+
+.Truck{
+background-color: rgb(161, 210, 255);
+margin: 0 auto;
+max-width: max-content;
+}
+
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.logo_top{
+    object-fit: cover;
+    scale: 1.25;
+    padding-top: -155%;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1500;
+    color: white;
+    text-shadow:5px 5px black;
+
+}
