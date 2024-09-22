@@ -1,11 +1,10 @@
 import React from "react";
 import './place.css'
-const Place = () => {
+import '../../assets/placeList'
+const Place = ({}) => {
     return (
-        <div className="Place">
-            <body>
-                <h1>PLACE</h1>
-            </body>
+        <div className="Place">=
+        
         </div>
 
     )

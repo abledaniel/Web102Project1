@@ -2,21 +2,24 @@
 .Truck{
 background-color: rgb(161, 210, 255);
 margin: 0 auto;
-max-width: max-content;
+width: 0 auto;
 }
 
-.roboto-slab{
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+body{
+    padding: 2%;
 }
 
 .logo_top{
     object-fit: cover;
     scale: 1.25;
-    padding-top: -155%;
-
+    transition: all .3s;
 }
+
+.logo_top:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
 
 h1{
     font-size: 4rem;
@@ -24,5 +27,43 @@ h1{
     font-weight: 1500;
     color: white;
     text-shadow:5px 5px black;
+}
 
+li{
+    background-color: white;
+    border-radius: 2rem;
+    display: inline-block;
+    padding-left: -50px;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2%;
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.place_img{
+    margin: -10%;
+    transition: all .3s;
+}
+
+.place_img:hover{
+    margin: -10%;
+    transform: scale(1.2);
+    transition: all .3s;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 1000;
+    margin: 5%;
+    padding: 2.5%;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    transition: all .3s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: all .3s;
 }
