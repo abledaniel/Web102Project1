@@ -4,6 +4,10 @@ import middleeast from "./images/middleeast.png"
 import usa from "./images/usa.png"
 import nigeria from "./images/nigeria.png"
 import chinese from "./images/chinese.png"
+import uk from "./images/uk.png"
+import japan from "./images/japan.png"
+import brasil from "./images/brasil.png"
+import southafrica from "./images/southafrica.png"
 
 export const placeList = [
     {
@@ -46,6 +50,34 @@ export const placeList = [
         image: chinese,
         name: 'Mad Dumplings',
         foodtype: 'Chinese',
+    },
+
+    {
+        id: 7,
+        image: uk,
+        name: 'The Fish and Chips',
+        foodtype: 'British',
+    },
+
+    {
+        id: 8,
+        image: japan,
+        name: 'Hibachi House',
+        foodtype: 'Japanese',
+    },
+
+    {
+        id: 9,
+        image: brasil,
+        name: 'Pampas Grill',
+        foodtype: 'Brasilian',
+    },
+
+    {
+        id: 10,
+        image: southafrica,
+        name: 'Holy Macaroni',
+        foodtype: 'South Africa',
     }
 
 
